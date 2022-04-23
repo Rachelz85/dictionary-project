@@ -1,3 +1,4 @@
+import logo from "./logo.png";
 import Dictionary from "./Dictionary"
 import './App.css';
 
@@ -6,8 +7,7 @@ function App() {
       <div className="container">
     <div className="App">
       <header className="App-header">
-     <h1>Dictionary Project</h1>
-  
+      <img src={logo} className="App-logo img-fluid" alt="logo" />
       </header>
       <main>
         <Dictionary />
