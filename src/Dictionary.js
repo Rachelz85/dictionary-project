@@ -14,10 +14,10 @@ export default function Dictionary() {
     function search(event) {
         event.preventDefault();
         
-        // documentation: https://https://dictionaryapi.dev/
-        let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en/${keyword}`;
-        axios.get(apiUrl).then(handleResponse); 
-    }
+       // documentation: https://dictionaryapi.dev/e
+    let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
+    axios.get(apiUrl).then(handleResponse);
+  }
     
     function handleKeywordChange(event) {
         setKeyword(event.target.value);
@@ -25,8 +25,8 @@ export default function Dictionary() {
 
     return (
        <div className="Dictionary">
-           <form onSubmit={search}>
-               <input type="search" onChange={handleKeywordChange}/>
+           <form className="mb-3" onSubmit={search}>
+               <input type="search" autoFocus={true} placeholder="Enter a word" onChange={handleKeywordChange}/>
            </form>
            <Results results={results} />
        </div>
