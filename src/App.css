@@ -1,12 +1,30 @@
+.App {
+  max-width: 100%;
+  background-color: rgb(52, 52, 52);
+  border-radius: 10px;
+  height: auto;
+}
+
 .App-header {
-  margin: 45px;
+  margin-top: 30px;
   text-align: center;
   font-size: 68px;
+  color: #FFFFFF;
   font-family: "Cookie", cursive, Cambria, Cochin, Georgia, Times,
     "Times New Roman", serif;
+}
+
+.App h1 {
+  font-size: 80px;
 }
 
 .App-footer {
   text-align: center;
   margin: 55px 0;
+  color: #FFFFFF;
+  width: 85%;
+  line-height: 17px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+
