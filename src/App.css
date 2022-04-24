@@ -2,7 +2,8 @@
   margin: 45px;
   text-align: center;
   font-size: 68px;
-  
+  font-family: "Cookie", cursive, Cambria, Cochin, Georgia, Times,
+    "Times New Roman", serif;
 }
 
 .App-footer {
