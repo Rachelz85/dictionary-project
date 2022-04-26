@@ -1,0 +1,11 @@
+.Photos img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 4px;
+    border: solid #FFFFFF 1px;
+    margin-bottom: 20px;
+}
+
+.Photos img:hover {
+    border: solid #c8b2e0 2px;
+}
