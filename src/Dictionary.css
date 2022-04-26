@@ -13,7 +13,7 @@
 }
 
 .Dictionary section {
-  background-color: #1a1a1c;
+  background-color: #272727;
   margin: 0 auto;
   margin-bottom: 50px;
   border-radius: 8px;
@@ -27,8 +27,8 @@
 }
 
 .Dictionary section:hover {
-  background-color: #1a1a1c;
+  background-color: #222222;
   transform: scale(1);
-  color: #bd9ee1;
-  box-shadow: 5px 10px 15px #1a1a1c;
+  color: #c8b2e0;
+  box-shadow: 5px 10px 15px rgba(20, 20, 20, 0.4);
 }
