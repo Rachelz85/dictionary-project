@@ -18,7 +18,7 @@
   margin-bottom: 50px;
   border-radius: 8px;
   padding: 20px;
-  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.0.2), 0 6px 6px rgba(0, 0, 0, 0.0.5);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.0.6);
   color: #FFFFFF;
   width: 85%;
   transition: 2s;
@@ -28,7 +28,7 @@
 
 .Dictionary section:hover {
   background-color: #222222;
-  transform: scale(1.04);
+  transform: scale(1.02);
   color: #c8b2e0;
   box-shadow: 5px 10px 15px rgba(20, 20, 20, 0.4);
 }
