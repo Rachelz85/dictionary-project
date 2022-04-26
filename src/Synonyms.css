@@ -1,6 +1,7 @@
-
 .Synonyms li {
-    display: inline-block;
-    margin: 10px 5px;
-    font-size: 13px;
+  display: inline-block;
+  font-size: 13px;
+  padding-right: 10px;
+  line-height: 1;
+  margin: 10px 5px;
 }
