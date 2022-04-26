@@ -28,7 +28,7 @@
 
 .Dictionary section:hover {
   background-color: #222222;
-  transform: scale(1);
+  transform: scale(1.04);
   color: #c8b2e0;
   box-shadow: 5px 10px 15px rgba(20, 20, 20, 0.4);
 }
