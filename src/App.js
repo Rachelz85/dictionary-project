@@ -14,7 +14,10 @@ function App() {
       </main>
       <footer className="App-footer">
         <small>
-        Codded by Rachel Zilberstein
+        Coded by Rachel Zilberstein and is open-sourced on <a href="https://github.com/Rachelz85/dictionary-project" target="_blank" rel="noreferrer" className="github-link"
+        >
+          Github{" "}
+        </a>
         </small>
       </footer>
     </div>

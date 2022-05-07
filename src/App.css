@@ -20,11 +20,21 @@
 
 .App-footer {
   text-align: center;
-  margin: 55px 0;
+  margin: 55px 50px;
   color: #FFFFFF;
   width: 85%;
   line-height: 17px;
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
 }
+
+.App .github-link {
+  text-decoration: none;
+  transition: all 150ms ease-in-out;
+}
+
+.App .github-link:hover {
+  color: #c8b2e0;
+}
+
 
 
